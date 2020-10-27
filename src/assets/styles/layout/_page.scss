@@ -1,0 +1,17 @@
+.page {
+  min-height: 100vh;
+  background: white;
+  padding: 2rem;
+
+  @include respond(tab) {
+    padding: 2rem 10rem;
+  }
+
+  @include respond(laptop) {
+    padding: 2rem 25rem;
+  }
+
+  @include respond(desktop) {
+    padding: 2rem 45rem;
+  }
+}

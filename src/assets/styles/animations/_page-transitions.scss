@@ -1,0 +1,44 @@
+/* Page transition animations */
+
+.slide-left,
+.slide-right,
+.slide-left-leave-active,
+.slide-left-enter-active,
+.slide-right-leave-active,
+.slide-right-enter-active {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+/* Slide left and right */
+
+.slide-left-enter-active {
+  transition: transform 0.5s ease-in-out;
+  z-index: 2;
+  transform: translateX(100%);
+}
+
+.slide-left-enter-to {
+  z-index: 2;
+  transform: translateX(0%);
+}
+
+.slide-left-leave-active {
+  z-index: -1;
+}
+
+.slide-left-leave-to {
+  z-index: -1;
+}
+
+.slide-right-leave-active {
+  transition: transform 0.5s ease-in-out;
+  z-index: 2;
+  transform: translateX(0%);
+}
+
+.slide-right-leave-to {
+  z-index: 2;
+  transform: translateX(100%);
+}

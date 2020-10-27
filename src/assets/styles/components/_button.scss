@@ -1,0 +1,36 @@
+.button {
+  padding: 1rem;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.6rem;
+  border: none;
+  display: block;
+  font-family: inherit;
+  line-height: 16px;
+  background-color: transparent;
+
+  &_blue {
+    background-color: rgba(66,153,225,1);
+    color: white;
+  }
+
+  &_info {
+    color: rgba(66,153,225,1);
+    border: 1px solid rgba(66,153,225,1);
+  }
+
+  &_danger {
+    color: #E53E3E;
+    border: 1px solid #E53E3E;
+    background-color: transparent;
+  }
+
+  &_borderless {
+    border: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

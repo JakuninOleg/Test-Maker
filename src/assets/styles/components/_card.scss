@@ -1,0 +1,49 @@
+.card {
+  border: 0 solid #e2e8f0;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgba(226,232,240,1);
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &_red {
+    background-color: #FED7D7;
+  }
+
+  &_green {
+background-color: #C6F6D5;
+  }
+
+  &__content {
+    padding: 1rem 1.5rem;
+
+    &_task {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  &__buttons {
+    display: flex;
+  }
+
+  &__button {
+    &:not(:last-child) {
+      &::after {
+        content: "|";
+        margin-left: 15px;
+        color: black;
+        font-weight: normal;
+      }
+    }
+  }
+}

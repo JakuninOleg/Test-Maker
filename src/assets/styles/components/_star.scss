@@ -1,0 +1,9 @@
+.star {
+  stroke: black;
+  fill: white;
+  stroke-width: 6px;
+  &_filled {
+    fill: rgba(255,200,0, 1);
+    stroke: rgba(255,0,0,0.2);
+  }
+}
