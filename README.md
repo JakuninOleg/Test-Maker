@@ -37,6 +37,6 @@ $ yarn lint
 ```
 
 ## App Preview
-You can check working app here. Powered by Netlify.
+You can check working app here. Powered by Vercel.
 
 [Test Maker](https://test-maker.vercel.app/)
