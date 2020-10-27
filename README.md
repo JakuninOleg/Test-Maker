@@ -1,24 +1,42 @@
-# test-maker
+# Test Maker App
 
-## Project setup
+## App Overview
+This app lets you create tests and add tasks with answers.
+You can pass tests and get your rating!
+This is CRUD app using no backend at all.
+
+## Patterns
+This app iplements different Vue, Vue 3 and Web patterns:
+
+* Composition API
+* Vue 3 reactivity (reactive, ref, computed)
+* Reactive native store (no vuex on board)
+* Reactive Localstorage with inputs being saved as well until you commit a change
+* App-like page transitions
+* Routing
+* PWA-ready
+
+## Run locally
+Clone repository and run following commands.
+
+If you are using npm:
 ```
-yarn install
+$ npm install
+$ npm run dev
 ```
 
-### Compiles and hot-reloads for development
+If you are using yarn:
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+$ yarn
+$ yarn dev
 ```
 
-### Lints and fixes files
+Lint to be stylish:
 ```
-yarn lint
+$ yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## App Preview
+You can check working app here. Powered by Netlify.
+
+[Test Maker](https://test-maker.vercel.app/)
